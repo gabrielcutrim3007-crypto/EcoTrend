@@ -17,7 +17,7 @@ Itens para casa sustentáveis: utensílios de cozinha e kits de talheres ecológ
 Tecnologia verde: carregadores solares e outros dispositivos sustentáveis.
 
 ## Funcionalidades
-Manipulação do DOM
+**Manipulação do DOM**
 
 Carrinho de Compras Dinâmico: os usuários podem adicionar produtos ao carrinho e visualizar a lista em tempo real na sidebar.
 
@@ -29,7 +29,7 @@ Persistência do Carrinho: o carrinho é armazenado no localStorage, permitindo 
 
 Produtos Dinâmicos: a lista de produtos é carregada a partir de um arquivo JSON (produtos.json) e exibida dinamicamente na página.
 
-Interatividade
+**Interatividade**
 
 Feedback ao usuário via alertas ao adicionar produtos ao carrinho.
 

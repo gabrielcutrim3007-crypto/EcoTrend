@@ -1,0 +1,14 @@
+[
+  {"id":1,"nome":"Camiseta Orgânica","preco":89.90,"categoria":"roupas","imagem":"../imgs/camiseta.jpg"},
+  {"id":2,"nome":"Sabonete Natural","preco":19.90,"categoria":"beleza","imagem":"../imgs/sabonete.jpg"},
+  {"id":3,"nome":"Garrafa Reutilizável","preco":49.90,"categoria":"garrafas","imagem":"../imgs/garrafa.jpg"},
+  {"id":4,"nome":"Carregador Solar","preco":129.99,"categoria":"eletronicos","imagem":"../imgs/garregador_solar.webp"},
+  {"id":5,"nome":"Shampoo Ecológico","preco":50.00,"categoria":"beleza","imagem":"../imgs/shampoo.webp"},
+  {"id":6,"nome":"Kit de Talheres Sustentável","preco":79.90,"categoria":"casa","imagem":"../imgs/kit_talheres.webp"},
+  {"id":7,"nome":"Roupas Sustentáveis","preco":89.90,"categoria":"roupas","imagem":"../imgs/roupa_sustentavel.jpg"},
+  {"id":8,"nome":"Produtos de beleza","preco":50.00,"categoria":"beleza","imagem":"../imgs/beleza.webp"},
+  {"id":9,"nome":"Utensílios de Cozinha","preco":109.99,"categoria":"casa","imagem":"../imgs/produtos_casa.jpg"},
+  {"id":10,"nome":"Garrafas Sustentáveis","preco":39.99,"categoria":"garrafas","imagem":"../imgs/garrafas_sustentaveis.avif"},
+  {"id":11,"nome":"Eletrônicos Sustentáveis","preco":129.99,"categoria":"eletronicos","imagem":"../imgs/garregador_solar.webp"},
+  {"id":12,"nome":"Sabonetes Naturais","preco":19.90,"categoria":"beleza","imagem":"../imgs/sabonete.jpg"}
+]

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrend Store</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">EcoTrend</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/produto.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/categorias.html">Categorias</a></li>
+                </ul>
+                <span class="text-white ms-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="contador-carrinho">0</span>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL -->
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/planeta.webp" class="d-block w-100" alt="Planeta sustentável">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/frutas.webp" class="d-block w-100" alt="Frutas naturais">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/green_energy.jpg" class="d-block w-100" alt="Energia verde">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- PRODUTOS -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Produtos Sustentáveis em Destaque</h2>
+        <div class="produtos-grid">
+            <div class="card">
+                <img src="imgs/camiseta.jpg" alt="Camiseta Orgânica">
+                <div class="card-body">
+                    <h5>Camiseta Orgânica</h5>
+                    <p class="verde">R$ 89,90</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Camiseta Orgânica', 89.90)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imgs/sabonete.jpg" alt="Sabonete Natural">
+                <div class="card-body">
+                    <h5>Sabonete Natural</h5>
+                    <p class="verde">R$ 19,90</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Sabonete Natural', 19.90)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imgs/garrafa.jpg" alt="Garrafa Reutilizável">
+                <div class="card-body">
+                    <h5>Garrafa Reutilizável</h5>
+                    <p class="verde">R$ 49,90</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Garrafa Reutilizável', 49.90)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imgs/garregador_solar.webp" alt="Carregador Solar">
+                <div class="card-body">
+                    <h5>Carregador Solar</h5>
+                    <p class="verde">R$ 129,99</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Carregador Solar', 129.99)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imgs/shampoo.webp" alt="Shampoo Ecológico">
+                <div class="card-body">
+                    <h5>Shampoo Ecológico</h5>
+                    <p class="verde">R$ 50,00</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Shampoo Ecológico', 50.00)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imgs/kit_talheres.webp" alt="Kit de Talheres Sustentável">
+                <div class="card-body">
+                    <h5>Kit de Talheres Sustentável</h5>
+                    <p class="verde">R$ 79,90</p>
+                    <div class="produtos_link">
+                        <button class="btn btn-success" onclick="adicionarCarrinho('Kit de Talheres Sustentável', 79.90)">Adicionar ao carrinho</button>
+                        <a href="pages/produto.html" class="btn btn-success">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARRINHO (ÚNICO) -->
+    <div id="carrinho" class="carrinho-sidebar">
+        <h3>Carrinho de Compras</h3>
+        <ul id="itens-carrinho"></ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button class="btn btn-danger" onclick="esvaziarCarrinho()">Esvaziar Carrinho</button>
+        <button class="btn btn-secondary" onclick="fecharCarrinho()">Fechar</button>
+    </div>
+
+    <!-- BOTÃO ABRIR CARRINHO -->
+    <button id="abrir-carrinho" class="btn btn-success" onclick="abrirCarrinho()">
+        <i class="fa-solid fa-cart-shopping"></i> Carrinho
+    </button>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-4">
+        <p>© 2026 EcoTrend Store</p>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

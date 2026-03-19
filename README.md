@@ -23,7 +23,7 @@ Carrinho de Compras Dinâmico: os usuários podem adicionar produtos ao carrinho
 
 Filtragem de Produtos: os usuários podem filtrar produtos por categoria sem recarregar a página.
 
-Storage e JSON
+**Storage e JSON**
 
 Persistência do Carrinho: o carrinho é armazenado no localStorage, permitindo que os itens permaneçam entre sessões.
 
